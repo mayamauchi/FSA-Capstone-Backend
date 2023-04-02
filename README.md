@@ -2,7 +2,7 @@
 # FSA Capstone Project - Backend
 This is the backend component of the FSA Capstone project, as part of the Full-Stack Academy curriculum.
 
-The FSA Capstone is a full-stack e-commerce web application that allows users to purchase galactic-themed products. The backend is built using Node.js and Express, and provides a RESTful API that handles user authentication, products, active/inactive carts and database interactions. For this application, we used PostgreSQL for the database. Stripe's API is integrated in the backend as well for user checkout experience. 
+The FSA Capstone is a full-stack e-commerce web application that allows users to purchase galactic-themed products. The backend is built using Node.js and Express, and provides [frontend](https://github.com/mayamauchi/FSA-Capstone-EcommerceSite) with a RESTful API that handles user authentication, products, active/inactive carts and database interactions. For this application, we used PostgreSQL for the database. Stripe's API is integrated in the backend as well for user checkout experience. 
 
 ## Authors
 
