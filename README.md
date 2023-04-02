@@ -4,6 +4,14 @@ This is the backend component of the FSA Capstone project, as part of the Full-S
 
 The FSA Capstone is a full-stack e-commerce web application that allows users to purchase galactic-themed products. The backend is built using Node.js and Express, and provides a REST API that handles user authentication, products, active/inactive carts and database interactions. For this application, we used PostgreSQL for the database. 
 
+## Authors
+
+- [@mayamauchi](https://www.github.com/mayamauchi)
+- [@mclovintime](https://github.com/mclovintime)
+- [@jtylerferguson](https://github.com/jtylerferguson)
+- [@lucasawest](https://github.com/lucasawest)
+
+
 
 ## Run Locally
 
