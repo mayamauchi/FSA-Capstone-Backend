@@ -6,8 +6,8 @@ const stripe = require("stripe")(
 const uuid = require("uuid");
 
 // const PORT = 3000;
-const PORT = process.env.PORT || 3000;
-// const { PORT = 8080 } = process.env;
+// const PORT = process.env.PORT || 3000;
+const { PORT = 8080 } = process.env;
 
 const express = require("express");
 const server = express();
@@ -36,9 +36,7 @@ server.use((req, res, next) => {
 
 server.use("/api", apiRouter);
 
-// server.listen(PORT, () => {
-//   console.log("The server is up on port", PORT);
-// });
-server.listen(process.env.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, server.settings.env);
+server.listen(PORT, () => {
+  console.log("The server is up on port", PORT);
 });
+
