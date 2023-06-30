@@ -13,8 +13,8 @@
             ],
             "program": "${workspaceFolder}/index.js",
             "env": {
-                "DATABAS2E_URL": "postgres://localhost:5432/capstone",
-                "NODE_ENV": "dev"
+                "DATABASE_URL": "postgres://localhost:5432/capstone",
+                "NODE_ENV": "production"
             }
         }
     ]

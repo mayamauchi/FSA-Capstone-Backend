@@ -8,9 +8,11 @@ if (databaseUrl === undefined) {
 
 const client = new Client({
   connectionString: databaseUrl,
-  ssl: {
-    rejectUnauthorized: false 
-  }
+  ssl:
+    process.env.NODE_ENV === "production"
+      ? { rejectUnauthorized: false }
+      : undefined,
+
 });
 
 console.log("DB_URL: " + process.env.DATABASE_URL);
