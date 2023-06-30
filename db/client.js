@@ -7,7 +7,7 @@ if (databaseUrl === undefined) {
 }
 
 const client = new Client({
-  connectionString: databaseUrl,
+  connectionString: "databaseUrl",
   ssl:
     process.env.NODE_ENV === "production"
       ? { rejectUnauthorized: false }
